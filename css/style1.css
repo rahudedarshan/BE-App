@@ -21,4 +21,8 @@ ul {
   {
     max-height:  100px;
   }
- 
+ .navbar-fixed
+ {
+   position: sticky;
+   top: 0;
+ }
