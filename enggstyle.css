@@ -1,0 +1,18 @@
+table ,td{
+    width: auto;
+    border: 1px solid black;
+    margin: auto;
+    border-collapse: collapse;
+    padding: 10PX;
+    float: left;
+   
+} 
+table ,td,a{
+    text-decoration: none;
+} 
+img{
+    padding: 100px;
+}
+marquee{
+    padding: 10px;
+}

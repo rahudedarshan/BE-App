@@ -1,0 +1,100 @@
+<!--<html>
+    <head>
+        <title>Engineering</title>
+        <link rel="stylesheet" href="enggstyle.css">
+    </head>
+    <body>
+        <h1>What is Engineering ?</h1>
+        <p>Bachelor of Technology (B.Tech) is a professional undergraduate engineering degree programme awarded to candidates after completion of four years of study in the field. This undergraduate programme is your gateway to a career in engineering.<br> In India, a <b>B.Tech degree</b> is offered across various specialisations. Some of the more prominent ones are as follows:</p>
+        <table>
+            <tr>
+                <td><a href="https://www.shiksha.com/engineering/computer-science-engineering-chp">Computer Science Engineering</a></td>
+                <td><a href=https://www.shiksha.com/engineering/mechanical-engineering-chp>Mechanical Engineering</a></td>
+                <td><a href=https://www.shiksha.com/engineering/chemical-engineering-chp>Chemical Engineering</a></td> 
+            </tr>
+            <tr>
+                <td><a href="https://www.shiksha.com/engineering/computer-science-engineering-chp">Computer Science Engineering</a></td>
+                <td><a href=https://www.shiksha.com/engineering/mechanical-engineering-chp>Mechanical Engineering</a></td>
+                <td><a href=https://www.shiksha.com/engineering/chemical-engineering-chp>Chemical Engineering</a></td> 
+            </tr>
+            <tr>
+                <td><a href="https://www.shiksha.com/engineering/computer-science-engineering-chp">Computer Science Engineering</a></td>
+                <td><a href=https://www.shiksha.com/engineering/mechanical-engineering-chp>Mechanical Engineering</a></td>
+                <td><a href=https://www.shiksha.com/engineering/chemical-engineering-chp>Chemical Engineering</a></td> 
+            </tr>
+            <tr>
+                <td><a href="https://www.shiksha.com/engineering/computer-science-engineering-chp">Computer Science Engineering</a></td>
+                <td><a href=https://www.shiksha.com/engineering/mechanical-engineering-chp>Mechanical Engineering</a></td>
+                <td><a href=https://www.shiksha.com/engineering/chemical-engineering-chp>Chemical Engineering</a></td> 
+            </tr>
+            <tr>
+                <td><a href="https://www.shiksha.com/engineering/computer-science-engineering-chp">Computer Science Engineering</a></td>
+                <td><a href=https://www.shiksha.com/engineering/mechanical-engineering-chp>Mechanical Engineering</a></td>
+                <td><a href=https://www.shiksha.com/engineering/chemical-engineering-chp>Chemical Engineering</a></td> 
+            </tr>
+        </table>
+
+
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Animated Image</title>
+   </head>
+   <body>
+    <marquee scrollamount="15">
+        <img src="Updated_952021/BE-App/Images/Bcs.jpg" width="300" height="300" >
+        <img src="Updated_952021/BE-App/Images/Bsc.jpeg" width="300" height="300" >
+        <img src="Updated_952021/BE-App/Images/Design.jpg" width="300" height="300" >
+        <img src="Updated_952021/BE-App/Images/Eng.jpg" width="300" height="300" >
+        <img src="Updated_952021/BE-App/Images/Interior.jpg" width="300" height="300" >
+        <img src="Updated_952021/BE-App/Images/Medical.jpg" width="300" height="300" >
+        <img src="Updated_952021/BE-App/Images/Pharmacy.jpg" width="300" height="300" >
+        <img src="Updated_952021/BE-App/Images/Veterinary.jpg" width="300" height="300" >
+     </marquee> 
+   </body>
+</html>-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+
+<h2 class="w3-center">Automatic Slideshow</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+    <img class="mySlides" src="Updated_952021/BE-App/Images/Bcs.jpg" style="width:100%">
+  <img class="mySlides" src="Updated_952021/BE-App/Images/Bsc.jpeg"style="width:100%">
+  <img class="mySlides" src="Updated_952021/BE-App/Images/Design.jpg" style="width:100%">
+  <img class="mySlides" src="Updated_952021/BE-App/Images/Eng.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
